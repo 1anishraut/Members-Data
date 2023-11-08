@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.backGround{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(135deg, rgb(184, 0, 0), rgba(207, 159, 0, 0.842));
+    padding: 10px;
+}
+.dataArea{
+    width: 100%;
+    max-width: 840px;
+    background:  rgba(255, 255, 255, 0.466);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.dataArea h2{
+    color: rgb(167, 0, 0);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding 100%;
+}
+
+.dataArea h2 img{
+    width: 40px;
+    margin-left: 10px;
+}
+.userData{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(173, 248, 88);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+#input-box2{
+    -moz-appearance:textfield
+}
+button.add{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    font-family: ;
+    padding: 12px 8px 12px 50px;
+    /* user-select: none; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* align-items: center; */
+}
+li:hover {
+    background-color: #f0f0f070;
+}
+
+
+.delete-button{
+    border: none;
+    outline: none;
+    padding: 0px 13px;
+    background-color: rgb(158, 65, 65);
+    color: white;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 46px;
+}
+.delete-button:hover {
+    background-color: rgba(253, 0, 0, 0.993);
+}
+
+/* ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(data/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+
+}
+ul li.checked{
+    color: black;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(data/checked.png);
+} */
+
+@media screen and (max-width:600px) {
+
+    .backGround{
+        height: 1500px;
+        width: 500px;
+        background:linear-gradient(135deg, rgb(184, 0, 0), rgba(207, 159, 0, 0.842));
+        
+    }
+    .dataArea{
+        max-width: 400px;
+        max-height: 900px;
+        background:  rgba(255, 255, 255, 0.466);
+        margin: 100px auto 20px;
+        padding: 40px 30px 70px;
+        border-radius: 10px;
+    }
+    
+    .dataArea h2{
+        margin-left: 100px;
+        
+    }
+    .userData{
+        height: 150px;
+        align-items: center;
+        background: rgb(173, 248, 88);
+        
+        padding-left: px;
+        
+    }
+
+    input{
+        font-size: 20px;
+        width: 100px;
+        height: 100px;
+        
+        
+    }
+    .name{
+        margin-bottom: 80px;
+    }
+    .contact{
+        margin-bottom: 80px;
+        margin-left: -150px;
+        margin-right: 120px;
+        
+    }
+    .email{
+        margin-top: 90px;
+        margin-left: -635px;
+        margin-right: 50px;
+        
+    }
+    
+    button.add{
+        margin-left: -200px;
+        margin-top: 80px;
+        margin-right: 7px;
+        font-size: 20px;
+        
+    }
+
+
+    ul li{
+        margin-left: -35px;
+
+        list-style: none;
+        font-size: 17px;
+        font-family: ;
+        /* user-select: none; */
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .p2{
+        margin-left: -150px;
+    }
+
+    .p3{
+        margin-top: 80px;
+        margin-left: -600px;
+        margin-right: px;
+       
+    }
+
+
+    .delete-button{
+        height: 35px;
+        font-size: 25px;
+        margin-top: 85px;
+        margin-left: -100px;
+    }
+    
+}
